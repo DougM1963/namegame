@@ -7,22 +7,24 @@
 <link href="<%= url('/css/main.css') %>" rel= "stylesheet" type="text/css" />
 </head>
 <body>
-<div class="fname">
 <br>
-Welcome to Doug`s Name Game
+The name that you are looking for is:
 <br>
-<div class="firstname">
 <%
 name_hash = {"Tricia" => "Tricia Hoover", "Christi" => "Christi Richmond", "Jim" => "Jim Fedders", 
         "Chris" => "Chris Phillips", "Tyler" => "Tyler Manspile", "Doug" => "Doug Meador"}
 %>
-<br><br><br>
-<img alt="namegame" src="/img/name.jpg" width="300" height="200" />
-    <br>
-    <br>
+<br>
+<img alt="namegame" src="/img/name2.jpg" width="300" height="200" />
+<br>
+<br>
+<%= fname(fname) %>
+<br>
+Try another name
+<a href='//localhost:4567'>Go!</a>
 </center>
 </body>
 </form>
 <script>
-    window.onload=getOrderDate('date');
+window.onload=getOrderDate('date');
 </script>

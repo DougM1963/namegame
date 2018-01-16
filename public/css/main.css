@@ -1,13 +1,14 @@
 body {
-	color: blue;
+	background-color: gold;
+	color: black;
 	background-image: url(/../imgs/blue.jpg);
-	font-size: 20;
+	font-size: 30px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
-  	color: red;
-  	font-size: 18;
+  	color: black;
+  	font-size: 18px;
 }
 
 footer {

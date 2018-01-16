@@ -4,3 +4,7 @@ def fname(first_name)
     
 name_hash[first_name]
 end
+if fname == fname
+	puts fname
+elsif fname != fname
+	puts That person is`nt a student
