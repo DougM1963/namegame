@@ -7,13 +7,13 @@ body {
 }
 
 p {
-  	color: black;
+  	color: Black;
   	font-size: 18px;
 }
 
 footer {
   	border-top: solid;
-  	border-color: hotpink;
+  	border-color: gold;
   	text-align: center;
   	position: fixed;
   	bottom: 0;

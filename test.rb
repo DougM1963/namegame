@@ -13,7 +13,16 @@ class Testnamegame < Minitest::Test
     def test_assert_Jim_returns_full_name
 		assert_equal("Jim Fedders", fname("Jim"))
 	end
+    def test_assert_Christi_returns_full_name
+		assert_equal("Christi Richmond", fname("Christi"))
+	end
     def test_assert_Chris_returns_full_name
 		assert_equal("Chris Phillips", fname("Chris"))
+	end
+    def test_assert_Tyler_returns_full_name
+		assert_equal("Tyler Manspile", fname("Tyler"))
+	end
+def test_assert_Doug_returns_full_name
+		assert_equal("Doug Meador", fname("Doug"))
 	end
 end
